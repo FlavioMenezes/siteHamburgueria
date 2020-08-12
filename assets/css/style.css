@@ -1,0 +1,70 @@
+html {
+    font-size: 1rem;
+}
+
+p {
+    padding: 0% 10%;
+}
+
+.imagem-carrossel {
+    object-fit: cover; /* Forma que o elemento se comporta em relação ao seu contêiner */
+    height: 500px;
+    width: 100px;
+    /* object-position: 0 -20%; */
+}
+
+.carrossel-dois {
+    object-position: 0 20%;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.texto-cor-especial {
+    color: darkred; /* !important  CUIDADO - Propriedade passe por cima da cascata de todas as outras*/
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: darkred;
+}
+
+#cor-titulo {
+    color: #8D0606;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.icones {
+    font-size: 2rem;
+}
+
+.thumb-redondo {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+@media (max-width: 576px ) { /* largura que vc quer que apareça */
+    .imagem-carrossel {
+        object-fit: cover;
+        object-position: 80% 20%;
+    }
+    .carrossel-dois {
+        object-position: 70% 20%;
+    }
+}
